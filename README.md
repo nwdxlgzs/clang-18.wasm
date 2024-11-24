@@ -1,5 +1,5 @@
 # clang-18.wasm
-
+[中文](./README-CN.MD)
 ## Build
 ### Emscripten
 emsdk-3.1.69
