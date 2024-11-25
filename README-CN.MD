@@ -30,4 +30,10 @@ emcmake cmake -G Ninja -DLLVM_ENABLE_PROJECTS="clang;lld" -DCMAKE_BUILD_TYPE=Min
 ## 如何使用
 谁知道呢！（我想创建一个在线工具用于编译 ELF/PE 文件）
 
+*clang*:`.c` -> `.o`
+
+*lld*: `.o` - > `bin`
+
+有一些已知问题，如果让clang自动使用lld一步到位，那就需要彻底想办法搞一个合适的文件系统和配套工具，以及这么一堆东西我一时无从下手……
+
 # 祝你好运
