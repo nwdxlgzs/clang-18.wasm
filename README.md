@@ -22,6 +22,9 @@ Arch support:`ARM`;`X86`;`AArch64`;`RISCV`;`WebAssembly`
 
 Enable projects:`clang`;`lld`
 
+## Patch
+This project does not apply the patch. Patch the Clang Driver to support defining resourceDir when running on Android with SDK 28+.
+
 ## How to ues
 Who knows!(I want to create an online tool for compiling elf/pe file)
 
