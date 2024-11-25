@@ -25,4 +25,8 @@ Enable projects:`clang`;`lld`
 ## How to ues
 Who knows!(I want to create an online tool for compiling elf/pe file)
 
+*clang*:`.c` -> `.o`
+
+*lld*: `.o` - > `bin`
+
 # Good Luck
