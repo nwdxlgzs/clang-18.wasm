@@ -27,6 +27,9 @@ emcmake cmake -G Ninja -DLLVM_ENABLE_PROJECTS="clang;lld" -DCMAKE_BUILD_TYPE=Min
 
 启用的项目：`clang`; `lld`
 
+## 补丁
+本补丁未在本项目应用，在安卓sdk28+环境下定义resourceDir可以使用补丁来间接支持定义。
+
 ## 如何使用
 谁知道呢！（我想创建一个在线工具用于编译 ELF/PE 文件）
 
